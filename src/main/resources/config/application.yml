@@ -67,6 +67,10 @@ spring:
             enabled: false
     thymeleaf:
         mode: XHTML
+    rabbitmq:
+      username: imanager
+      host: localhost
+      password: imanager
 security:
     basic:
         enabled: false
